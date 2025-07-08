@@ -112,88 +112,88 @@ TL;DR: Do not utilize LLM's until you have the deterministic process saving data
 After scraping, I ran some analysis on the courses.
 
 #### Top 20 Content Heavy Courses
-| ID | Title | Course Number | Total Content Chars |
-|----|-------|---------------|---------------------|
-| 36 | Structural Mechanics in Nuclear Power Technology | 22.314J | 1291632 |
-| 30 | Design and Fabrication of Microelectromechanical Devices | 6.777J | 706794 |
-| 2 | Advanced Thermodynamics | 2.43 | 663264 |
-| 48 | Maneuvering and Control of Surface and Underwater Vehicles (13.49) | 2.154 | 562554 |
-| 9 | Numerical Fluid Mechanics | 2.29 | 537680 |
-| 25 | Signal Processing: Continuous and Discrete | 2.161 | 442605 |
-| 31 | Hydrofoils and Propellers | 2.23 | 368417 |
-| 5 | Introduction to Manufacturing Systems | 2.854 | 362311 |
-| 37 | Modeling and Simulation of Dynamic Systems | 2.141 | 361663 |
-| 38 | Design of Medical Devices and Implants | 2.782J | 357594 |
-| 35 | Marine Power and Propulsion | 2.611 | 353213 |
-| 27 | Dynamics and Control II | 2.004 | 347880 |
-| 14 | Structural Mechanics | 2.080J | 345149 |
-| 45 | Multi-Scale System Design | 2.76 | 339795 |
-| 4 | Wave Propagation | 2.062J | 305452 |
-| 46 | Mechanical Assembly and Its Role in Product Development | 2.875 | 304462 |
-| 56 | Computational Ocean Acoustics (13.853) | 2.068 | 301072 |
-| 39 | Identification, Estimation, and Learning | 2.160 | 293721 |
-| 6 | Micro/Nano Engineering Laboratory | 2.674 | 254647 |
-| 43 | Marine Hydrodynamics (13.021) | 2.20 | 245706 |
+| Title | Course Number | Year | Total Content Chars |
+|-------|---------------|------|---------------------|
+| [Structural Mechanics in Nuclear Power Technology](https://ocw.mit.edu/courses/22-314j-structural-mechanics-in-nuclear-power-technology-fall-2006) | 22.314J | 2006 | 1291632 |
+| [Design and Fabrication of Microelectromechanical Devices](https://ocw.mit.edu/courses/6-777j-design-and-fabrication-of-microelectromechanical-devices-spring-2007) | 6.777J | 2007 | 706794 |
+| [Advanced Thermodynamics](https://ocw.mit.edu/courses/2-43-advanced-thermodynamics-spring-2024) | 2.43 | 2024 | 663264 |
+| [Maneuvering and Control of Surface and Underwater Vehicles (13.49)](https://ocw.mit.edu/courses/2-154-maneuvering-and-control-of-surface-and-underwater-vehicles-13-49-fall-2004) | 2.154 | 2004 | 562554 |
+| [Numerical Fluid Mechanics](https://ocw.mit.edu/courses/2-29-numerical-fluid-mechanics-spring-2015) | 2.29 | 2015 | 537680 |
+| [Signal Processing: Continuous and Discrete](https://ocw.mit.edu/courses/2-161-signal-processing-continuous-and-discrete-fall-2008) | 2.161 | 2008 | 442605 |
+| [Hydrofoils and Propellers](https://ocw.mit.edu/courses/2-23-hydrofoils-and-propellers-spring-2007) | 2.23 | 2007 | 368417 |
+| [Introduction to Manufacturing Systems](https://ocw.mit.edu/courses/2-854-introduction-to-manufacturing-systems-fall-2016) | 2.854 | 2016 | 362311 |
+| [Modeling and Simulation of Dynamic Systems](https://ocw.mit.edu/courses/2-141-modeling-and-simulation-of-dynamic-systems-fall-2006) | 2.141 | 2006 | 361663 |
+| [Design of Medical Devices and Implants](https://ocw.mit.edu/courses/2-782j-design-of-medical-devices-and-implants-spring-2006) | 2.782J | 2006 | 357594 |
+| [Marine Power and Propulsion](https://ocw.mit.edu/courses/2-611-marine-power-and-propulsion-fall-2006) | 2.611 | 2006 | 353213 |
+| [Dynamics and Control II](https://ocw.mit.edu/courses/2-004-dynamics-and-control-ii-spring-2008) | 2.004 | 2008 | 347880 |
+| [Structural Mechanics](https://ocw.mit.edu/courses/2-080j-structural-mechanics-fall-2013) | 2.080J | 2013 | 345149 |
+| [Multi-Scale System Design](https://ocw.mit.edu/courses/2-76-multi-scale-system-design-fall-2004) | 2.76 | 2004 | 339795 |
+| [Wave Propagation](https://ocw.mit.edu/courses/2-062j-wave-propagation-spring-2017) | 2.062J | 2017 | 305452 |
+| [Mechanical Assembly and Its Role in Product Development](https://ocw.mit.edu/courses/2-875-mechanical-assembly-and-its-role-in-product-development-fall-2004) | 2.875 | 2004 | 304462 |
+| [Computational Ocean Acoustics (13.853)](https://ocw.mit.edu/courses/2-068-computational-ocean-acoustics-13-853-spring-2003) | 2.068 | 2003 | 301072 |
+| [Identification, Estimation, and Learning](https://ocw.mit.edu/courses/2-160-identification-estimation-and-learning-spring-2006) | 2.160 | 2006 | 293721 |
+| [Micro/Nano Engineering Laboratory](https://ocw.mit.edu/courses/2-674-micro-nano-engineering-laboratory-spring-2016) | 2.674 | 2016 | 254647 |
+| [Marine Hydrodynamics (13.021)](https://ocw.mit.edu/courses/2-20-marine-hydrodynamics-13-021-spring-2005) | 2.20 | 2005 | 245706 |
 
 #### Top 20 Lecture Heavy Courses 
-| ID | Title | Course Number | Total Lecture Length | Lecture Count |
-|----|-------|---------------|---------------------|---------------|
-| 36 | Structural Mechanics in Nuclear Power Technology | 22.314J | 896851 | 26 |
-| 30 | Design and Fabrication of Microelectromechanical Devices | 6.777J | 706794 | 28 |
-| 2 | Advanced Thermodynamics | 2.43 | 663264 | 27 |
-| 48 | Maneuvering and Control of Surface and Underwater Vehicles (13.49) | 2.154 | 562554 | 26 |
-| 9 | Numerical Fluid Mechanics | 2.29 | 537680 | 25 |
-| 25 | Signal Processing: Continuous and Discrete | 2.161 | 442605 | 25 |
-| 31 | Hydrofoils and Propellers | 2.23 | 365419 | 1 |
-| 5 | Introduction to Manufacturing Systems | 2.854 | 362311 | 20 |
-| 37 | Modeling and Simulation of Dynamic Systems | 2.141 | 350677 | 39 |
-| 27 | Dynamics and Control II | 2.004 | 347880 | 34 |
-| 14 | Structural Mechanics | 2.080J | 345149 | 11 |
-| 35 | Marine Power and Propulsion | 2.611 | 327878 | 41 |
-| 4 | Wave Propagation | 2.062J | 305452 | 7 |
-| 46 | Mechanical Assembly and Its Role in Product Development | 2.875 | 304462 | 21 |
-| 56 | Computational Ocean Acoustics (13.853) | 2.068 | 301072 | 26 |
-| 39 | Identification, Estimation, and Learning | 2.160 | 293721 | 27 |
-| 43 | Marine Hydrodynamics (13.021) | 2.20 | 245706 | 23 |
-| 18 | Finite Element Analysis of Solids and Fluids II | 2.094 | 231543 | 22 |
-| 16 | Nano-to-Macro Transport Processes | 2.57 | 231349 | 1 |
-| 41 | Introduction to Robotics | 2.12 | 205267 | 8 |
+| Title | Course Number | Year | Total Lecture Length | Lecture Count |
+|-------|---------------|------|---------------------|---------------|
+| [Structural Mechanics in Nuclear Power Technology](https://ocw.mit.edu/courses/22-314j-structural-mechanics-in-nuclear-power-technology-fall-2006) | 22.314J | 2006 | 896851 | 26 |
+| [Design and Fabrication of Microelectromechanical Devices](https://ocw.mit.edu/courses/6-777j-design-and-fabrication-of-microelectromechanical-devices-spring-2007) | 6.777J | 2007 | 706794 | 28 |
+| [Advanced Thermodynamics](https://ocw.mit.edu/courses/2-43-advanced-thermodynamics-spring-2024) | 2.43 | 2024 | 663264 | 27 |
+| [Maneuvering and Control of Surface and Underwater Vehicles (13.49)](https://ocw.mit.edu/courses/2-154-maneuvering-and-control-of-surface-and-underwater-vehicles-13-49-fall-2004) | 2.154 | 2004 | 562554 | 26 |
+| [Numerical Fluid Mechanics](https://ocw.mit.edu/courses/2-29-numerical-fluid-mechanics-spring-2015) | 2.29 | 2015 | 537680 | 25 |
+| [Signal Processing: Continuous and Discrete](https://ocw.mit.edu/courses/2-161-signal-processing-continuous-and-discrete-fall-2008) | 2.161 | 2008 | 442605 | 25 |
+| [Hydrofoils and Propellers](https://ocw.mit.edu/courses/2-23-hydrofoils-and-propellers-spring-2007) | 2.23 | 2007 | 365419 | 1 |
+| [Introduction to Manufacturing Systems](https://ocw.mit.edu/courses/2-854-introduction-to-manufacturing-systems-fall-2016) | 2.854 | 2016 | 362311 | 20 |
+| [Modeling and Simulation of Dynamic Systems](https://ocw.mit.edu/courses/2-141-modeling-and-simulation-of-dynamic-systems-fall-2006) | 2.141 | 2006 | 350677 | 39 |
+| [Dynamics and Control II](https://ocw.mit.edu/courses/2-004-dynamics-and-control-ii-spring-2008) | 2.004 | 2008 | 347880 | 34 |
+| [Structural Mechanics](https://ocw.mit.edu/courses/2-080j-structural-mechanics-fall-2013) | 2.080J | 2013 | 345149 | 11 |
+| [Marine Power and Propulsion](https://ocw.mit.edu/courses/2-611-marine-power-and-propulsion-fall-2006) | 2.611 | 2006 | 327878 | 41 |
+| [Wave Propagation](https://ocw.mit.edu/courses/2-062j-wave-propagation-spring-2017) | 2.062J | 2017 | 305452 | 7 |
+| [Mechanical Assembly and Its Role in Product Development](https://ocw.mit.edu/courses/2-875-mechanical-assembly-and-its-role-in-product-development-fall-2004) | 2.875 | 2004 | 304462 | 21 |
+| [Computational Ocean Acoustics (13.853)](https://ocw.mit.edu/courses/2-068-computational-ocean-acoustics-13-853-spring-2003) | 2.068 | 2003 | 301072 | 26 |
+| [Identification, Estimation, and Learning](https://ocw.mit.edu/courses/2-160-identification-estimation-and-learning-spring-2006) | 2.160 | 2006 | 293721 | 27 |
+| [Marine Hydrodynamics (13.021)](https://ocw.mit.edu/courses/2-20-marine-hydrodynamics-13-021-spring-2005) | 2.20 | 2005 | 245706 | 23 |
+| [Finite Element Analysis of Solids and Fluids II](https://ocw.mit.edu/courses/2-094-finite-element-analysis-of-solids-and-fluids-ii-spring-2011) | 2.094 | 2011 | 231543 | 22 |
+| [Nano-to-Macro Transport Processes](https://ocw.mit.edu/courses/2-57-nano-to-macro-transport-processes-spring-2012) | 2.57 | 2012 | 231349 | 1 |
+| [Introduction to Robotics](https://ocw.mit.edu/courses/2-12-introduction-to-robotics-fall-2005) | 2.12 | 2005 | 205267 | 8 |
 
 #### Top 20 Lectures By Avg Lecture Length 
-| ID | Title | Course Number | Avg Lecture Length | Lecture Count |
-|----|-------|---------------|-------------------|---------------|
-| 31 | Hydrofoils and Propellers | 2.23 | 365419 | 1 |
-| 16 | Nano-to-Macro Transport Processes | 2.57 | 231349 | 1 |
-| 4 | Wave Propagation | 2.062J | 43636 | 7 |
-| 36 | Structural Mechanics in Nuclear Power Technology | 22.314J | 34494 | 26 |
-| 14 | Structural Mechanics | 2.080J | 31377 | 11 |
-| 41 | Introduction to Robotics | 2.12 | 25658 | 8 |
-| 30 | Design and Fabrication of Microelectromechanical Devices | 6.777J | 25243 | 28 |
-| 2 | Advanced Thermodynamics | 2.43 | 24565 | 27 |
-| 17 | Engineering Dynamics | 2.003SC | 22860 | 2 |
-| 48 | Maneuvering and Control of Surface and Underwater Vehicles (13.49) | 2.154 | 21637 | 26 |
-| 9 | Numerical Fluid Mechanics | 2.29 | 21507 | 25 |
-| 5 | Introduction to Manufacturing Systems | 2.854 | 18116 | 20 |
-| 25 | Signal Processing: Continuous and Discrete | 2.161 | 17704 | 25 |
-| 61 | Precision Machine Design | 2.75 | 14645 | 2 |
-| 46 | Mechanical Assembly and Its Role in Product Development | 2.875 | 14498 | 21 |
-| 45 | Multi-Scale System Design | 2.76 | 12189 | 16 |
-| 56 | Computational Ocean Acoustics (13.853) | 2.068 | 11580 | 26 |
-| 39 | Identification, Estimation, and Learning | 2.160 | 10879 | 27 |
-| 57 | Designing Paths to Peace | 2.993 | 10869 | 1 |
-| 43 | Marine Hydrodynamics (13.021) | 2.20 | 10683 | 23 |
+| Title | Course Number | Year | Avg Lecture Length | Lecture Count |
+|-------|---------------|------|-------------------|---------------|
+| [Hydrofoils and Propellers](https://ocw.mit.edu/courses/2-23-hydrofoils-and-propellers-spring-2007) | 2.23 | 2007 | 365419 | 1 |
+| [Nano-to-Macro Transport Processes](https://ocw.mit.edu/courses/2-57-nano-to-macro-transport-processes-spring-2012) | 2.57 | 2012 | 231349 | 1 |
+| [Wave Propagation](https://ocw.mit.edu/courses/2-062j-wave-propagation-spring-2017) | 2.062J | 2017 | 43636 | 7 |
+| [Structural Mechanics in Nuclear Power Technology](https://ocw.mit.edu/courses/22-314j-structural-mechanics-in-nuclear-power-technology-fall-2006) | 22.314J | 2006 | 34494 | 26 |
+| [Structural Mechanics](https://ocw.mit.edu/courses/2-080j-structural-mechanics-fall-2013) | 2.080J | 2013 | 31377 | 11 |
+| [Introduction to Robotics](https://ocw.mit.edu/courses/2-12-introduction-to-robotics-fall-2005) | 2.12 | 2005 | 25658 | 8 |
+| [Design and Fabrication of Microelectromechanical Devices](https://ocw.mit.edu/courses/6-777j-design-and-fabrication-of-microelectromechanical-devices-spring-2007) | 6.777J | 2007 | 25243 | 28 |
+| [Advanced Thermodynamics](https://ocw.mit.edu/courses/2-43-advanced-thermodynamics-spring-2024) | 2.43 | 2024 | 24565 | 27 |
+| [Engineering Dynamics](https://ocw.mit.edu/courses/2-003sc-engineering-dynamics-fall-2011) | 2.003SC | 2011 | 22860 | 2 |
+| [Maneuvering and Control of Surface and Underwater Vehicles (13.49)](https://ocw.mit.edu/courses/2-154-maneuvering-and-control-of-surface-and-underwater-vehicles-13-49-fall-2004) | 2.154 | 2004 | 21637 | 26 |
+| [Numerical Fluid Mechanics](https://ocw.mit.edu/courses/2-29-numerical-fluid-mechanics-spring-2015) | 2.29 | 2015 | 21507 | 25 |
+| [Introduction to Manufacturing Systems](https://ocw.mit.edu/courses/2-854-introduction-to-manufacturing-systems-fall-2016) | 2.854 | 2016 | 18116 | 20 |
+| [Signal Processing: Continuous and Discrete](https://ocw.mit.edu/courses/2-161-signal-processing-continuous-and-discrete-fall-2008) | 2.161 | 2008 | 17704 | 25 |
+| [Precision Machine Design](https://ocw.mit.edu/courses/2-75-precision-machine-design-fall-2001) | 2.75 | 2001 | 14645 | 2 |
+| [Mechanical Assembly and Its Role in Product Development](https://ocw.mit.edu/courses/2-875-mechanical-assembly-and-its-role-in-product-development-fall-2004) | 2.875 | 2004 | 14498 | 21 |
+| [Multi-Scale System Design](https://ocw.mit.edu/courses/2-76-multi-scale-system-design-fall-2004) | 2.76 | 2004 | 12189 | 16 |
+| [Computational Ocean Acoustics (13.853)](https://ocw.mit.edu/courses/2-068-computational-ocean-acoustics-13-853-spring-2003) | 2.068 | 2003 | 11580 | 26 |
+| [Identification, Estimation, and Learning](https://ocw.mit.edu/courses/2-160-identification-estimation-and-learning-spring-2006) | 2.160 | 2006 | 10879 | 27 |
+| [Designing Paths to Peace](https://ocw.mit.edu/courses/2-993-designing-paths-to-peace-fall-2002) | 2.993 | 2002 | 10869 | 1 |
+| [Marine Hydrodynamics (13.021)](https://ocw.mit.edu/courses/2-20-marine-hydrodynamics-13-021-spring-2005) | 2.20 | 2005 | 10683 | 23 |
 
 #### Top 20 Problem Set Courses
-| ID | Title | Course Number | Problem Count | Total Problem Length |
-|----|-------|---------------|---------------|---------------------|
-| 61 | Precision Machine Design | 2.75 | 10 | 140125 |
-| 26 | Control of Manufacturing Processes (SMA 6303) | 2.830J | 8 | 112481 |
-| 49 | Mechanics and Materials II | 2.002 | 6 | 103969 |
-| 21 | Finite Element Analysis of Solids and Fluids I | 2.092 | 8 | 41876 |
-| 42 | Design Principles for Ocean Vehicles (13.42) | 2.22 | 9 | 37617 |
-| 40 | Hydrodynamics (13.012) | 2.016 | 8 | 24603 |
-| 38 | Design of Medical Devices and Implants | 2.782J | 1 | 10504 |
-| 31 | Hydrofoils and Propellers | 2.23 | 1 | 2998 |
+| Title | Course Number | Year | Problem Count | Total Problem Length |
+|-------|---------------|------|---------------|---------------------|
+| [Precision Machine Design](https://ocw.mit.edu/courses/2-75-precision-machine-design-fall-2001) | 2.75 | 2001 | 10 | 140125 |
+| [Control of Manufacturing Processes (SMA 6303)](https://ocw.mit.edu/courses/2-830j-control-of-manufacturing-processes-sma-6303-spring-2008) | 2.830J | 2008 | 8 | 112481 |
+| [Mechanics and Materials II](https://ocw.mit.edu/courses/2-002-mechanics-and-materials-ii-spring-2004) | 2.002 | 2004 | 6 | 103969 |
+| [Finite Element Analysis of Solids and Fluids I](https://ocw.mit.edu/courses/2-092-finite-element-analysis-of-solids-and-fluids-i-fall-2009) | 2.092 | 2009 | 8 | 41876 |
+| [Design Principles for Ocean Vehicles (13.42)](https://ocw.mit.edu/courses/2-22-design-principles-for-ocean-vehicles-13-42-spring-2005) | 2.22 | 2005 | 9 | 37617 |
+| [Hydrodynamics (13.012)](https://ocw.mit.edu/courses/2-016-hydrodynamics-13-012-fall-2005) | 2.016 | 2005 | 8 | 24603 |
+| [Design of Medical Devices and Implants](https://ocw.mit.edu/courses/2-782j-design-of-medical-devices-and-implants-spring-2006) | 2.782J | 2006 | 1 | 10504 |
+| [Hydrofoils and Propellers](https://ocw.mit.edu/courses/2-23-hydrofoils-and-propellers-spring-2007) | 2.23 | 2007 | 1 | 2998 |
 
 **NOTE**: missing data could be due to parsing assignment issues and/or grouping them improperly. Specifically, problem sets are only saved if they have solution set with them.
 
