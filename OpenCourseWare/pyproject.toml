@@ -1,0 +1,17 @@
+[project]
+name = "opencourseware"
+version = "0.1.0"
+description = "Add your description here"
+requires-python = ">=3.13"
+dependencies = [
+    "anthropic>=0.55.0",
+    "beautifulsoup4>=4.13.4",
+    "dotenv>=0.9.9",
+    "psycopg2>=2.9.10",
+    "pymupdf>=1.23.0",
+    "pymupdf4llm>=0.0.26",
+    "python-dotenv>=1.1.1",
+    "requests>=2.32.4",
+    "rich>=13.0.0",
+    "sqlalchemy>=2.0.41",
+]
